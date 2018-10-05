@@ -35,7 +35,6 @@ public class DisappearingElementsPage {
             driver.navigate().refresh();
                WebElement galleryLink=driver.findElement(By.xpath("/html/body/div[2]/div/div/ul/li[5]/a"));
                 if(galleryLink != null && galleryLink.isDisplayed()) {
-                    System.out.println("Gallery Element is available");
                     break;
                 }
                 else
